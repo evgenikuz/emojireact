@@ -1,0 +1,16 @@
+.footer {
+    background: #EDEEF3;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 17px;
+}
+.footer__line {
+        color: #CED4DA;
+    }
+.footer__copyright {
+        margin-top: 13px;
+        color: #6C757D;
+        text-align: center;
+        font-size: 16px;
+        line-height: 21px; /* 131.25% */
+    }

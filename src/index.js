@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {data} from './components/main/data'
+
+let randomEmoji = data[Math.floor(Math.random()*data.length)]['symbol'] 
+document.querySelector('title').textContent = `Emoji Finder ${randomEmoji}`
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,0 +1,26 @@
+.card__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+    height: 184px;
+    padding: 24px;
+    max-width: 316px;
+}
+.card__emoji {
+    font-size: 48px;
+    line-height: 48px; /* 100% */
+}
+.card__name {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28px; /* 164.706% */
+    text-decoration-line: underline;
+    margin-bottom: 12px; 
+    margin-top: 18px;
+}
+.card__keywords {
+    color: #3F444A;
+    font-size: 12px;
+    text-align: center;
+}
